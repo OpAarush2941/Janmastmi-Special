@@ -1,0 +1,21 @@
+h3{
+    font-size: 25px !important;
+}
+#btnSnapshot:hover{
+    background-color: orangered;
+}
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    from{box-shadow: 2px 2px 50px red;}
+    to{box-shadow: 2px 2px 50px yellow;}
+}
+
+#handi{
+    margin-bottom: 0px;
+    width: 500px;
+    height: 600px;
+}
